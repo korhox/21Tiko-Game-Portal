@@ -25,6 +25,7 @@ Is abailable at [https://webpages.tuni.fi/21tiko/](https://webpages.tuni.fi/21ti
 
 -   PHP (developed on v7.3.20)
 -   Composer (developed using phar executable v2.3.4)
+-   FontAwesome 6 kit (get it free from [here](https://fontawesome.com/))
 
 # Installation
 
@@ -45,6 +46,8 @@ php composer.phar install
 ## Configure
 
 In `configs/general.php` set system path and server path.
+
+Add your FontAwesome 6 kit to line 15 the header in the `templates/{$config["smarty"]["template_dir"]}/includes/header.tpl` file.
 
 Add in games at `configs/games.php`.
 
