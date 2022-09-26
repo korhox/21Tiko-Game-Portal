@@ -6,6 +6,9 @@ This repositiry contains source code for 21tiko Game Portal.
 
 Is abailable at [https://webpages.tuni.fi/21tiko/](https://webpages.tuni.fi/21tiko/).
 
+# Screenshot
+![Screenshot](screenshot.png)
+
 # Features
 
 -   Translation support
@@ -78,9 +81,8 @@ After this you are ready to edit the html as you like.
 
 ## Template file structure:
 
-template_name
-
 ```
+template_name
 ├── css                             # Directory for CSS
 │   ├── theme.css                   # CSS source
 │   └── theme.min.css               # Minified CSS (this file is used unless changed)
