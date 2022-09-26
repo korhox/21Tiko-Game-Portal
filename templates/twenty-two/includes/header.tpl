@@ -6,6 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>21TIKO Peliportaali</title>
+        <meta name="theme-color" content="#4e008e">
         <meta name="description" content="2021 vuonna aloittaneiden opiskelijoiden 2022 vuonna tehdyt pelit">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" media="screen,print">
         <link rel="stylesheet" href="{$config->syspath}/templates/{$config->smarty->template_dir}/css/theme.min.css" media="screen,print" />
