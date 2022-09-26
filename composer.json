@@ -1,0 +1,7 @@
+{
+    "require": {
+        "smarty/smarty": "^4.1",
+        "bramus/router": "~1.6",
+        "components/jquery": "^3.6"
+    }
+}

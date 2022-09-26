@@ -1,0 +1,146 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #fff;
+    color: #444;
+}
+
+.container {
+    max-width: 1700px;
+}
+
+@media screen and (min-width: 992px) {
+    h1 span {
+        margin-left: 20px;
+        font-weight: 900;
+        font-size: 4rem;
+    }
+}
+
+a {
+    color: #4e008e;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #7b00e0 !important;
+}
+
+.btn.btn-primary {
+    color: white;
+    background: #4e008e;
+    border: 0;
+}
+
+.btn.btn-primary:hover {
+    background: #7b00e0;
+    color: white !important;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 3em;
+}
+
+.text-primary {
+    color: #4e008e !important;
+}
+
+.bg-primary {
+    background: linear-gradient(90deg, #4e008e, #3a0069);
+}
+
+.navbar.bg-dark {
+    background-color: #4e008e !important;
+    box-shadow: 0 10px 20px -10px #0000006b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-link i {
+    background: #ffffff;
+    color: #3a0069;
+    padding: 14px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-right: 15px;
+    width: 50px;
+    text-align: center;
+}
+
+.nav-link {
+    font-size: 22px;
+    align-items: center;
+    display: flex;
+    margin-right: 20px;
+    border-radius: 5px;
+    padding-right: 20px !important;
+    color: #ffffffdd !important;
+}
+
+.nav-link:hover {
+    color: white !important;
+}
+
+.nav-link:hover {
+    background-color: #7b00e0;
+}
+
+footer.bg-dark {
+    background-color: #4e008e !important;
+    box-shadow: 0 -10px 20px -10px #0000006b;
+}
+
+.teampic {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.winner_place {
+    background-color: #4e008e;
+    color: white;
+    border-radius: 50%;
+    font-weight: bold;
+    display: flex;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    text-align: center;
+    height: 80px;
+    width: 80px;
+    transform: rotate(18deg);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 30px #0005, 0 0 5px #0005;
+    border: 2px solid #fff;
+}
+
+.winner_place::after {
+    content: "\f005";
+    font-family: "Font Awesome 6 Pro";
+    position: absolute;
+    font-size: 54px;
+    opacity: 0.26;
+    mix-blend-mode: color-dodge;
+}
+
+.winner_place span {
+    display: block;
+}
+
+.winner_place span.place {
+    text-transform: uppercase;
+    font-size: 11px;
+}
+
+.winner_place span.number {
+    font-size: 23px;
+    line-height: 23px;
+}
+
+.game {
+    position: relative;
+}

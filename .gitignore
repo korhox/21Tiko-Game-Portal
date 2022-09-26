@@ -1,0 +1,11 @@
+# Composer executable
+composer.phar
+
+# OS files
+.DS_Store
+
+# Temporary Smarty files
+temp/
+
+# Composer vendor files
+vendor/
